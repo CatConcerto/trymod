@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"log"
+
+	"github.com/golang-migrate/migrate/src/core"
+)
 
 func main() {
+	core.Core(log.Println)
 	fmt.Println("fuck yeah")
 }
