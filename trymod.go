@@ -1,5 +1,5 @@
 package trymod
 
-func Core(f func(...any)) {
-	f("Core 1 invoked")
+func Root(f func(...any)) {
+	f("Root 1 invoked")
 }
