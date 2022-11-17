@@ -11,3 +11,7 @@ func main() {
 	core.Core(log.Println)
 	fmt.Println("fuck yeah")
 }
+
+func Root() {
+	fmt.Println("root")
+}
